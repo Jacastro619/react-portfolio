@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import App from "./App";
 import Error from "./pages/Error";
@@ -8,8 +9,6 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
-
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 const router = createBrowserRouter([
   {
