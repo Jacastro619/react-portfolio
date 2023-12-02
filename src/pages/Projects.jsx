@@ -11,7 +11,7 @@ export default function Projects() {
             style={{ width: "20rem" }}
           >
             <img
-              src={`./src/assets/images/${project.imageName}`}
+              src={`./dist/images/${project.imageName}`}
               className="card-img-top h-50 p-1"
               alt="screenshot of the work remote applications homepage"
             />
@@ -19,10 +19,16 @@ export default function Projects() {
               <h5 className="card-title">{project.title}</h5>
               <p className="card-text">{project.description}</p>
               <div className="link-btns">
-                <a href={project.repoLink} className="btn btn-primary">
+                <a
+                  href={project.repoLink}
+                  className="btn btn-primary custom-project-btns"
+                >
                   Go to Repository!
                 </a>
-                <a href={project.deployedLink} className="btn btn-primary">
+                <a
+                  href={project.deployedLink}
+                  className="btn btn-primary custom-project-btns"
+                >
                   View Demo Here!
                 </a>
               </div>

@@ -142,7 +142,7 @@ main {
 .custom-resume-card {
   display: flex;
   width: 50%;
-  height: 625px;
+  height: 650px;
   align-self: center;
   margin: 2%;
 }
@@ -161,8 +161,8 @@ main {
 
 .resume {
   border: solid #333333;
-  height: 80%;
-  width: 40%;
+  max-height: 75%;
+  max-width: 40%;
 }
 
 footer {

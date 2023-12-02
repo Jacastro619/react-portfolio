@@ -24,10 +24,7 @@ export default function Resume() {
         >
           Download Resume
         </button>
-        <img
-          className="resume"
-          src="./src/assets/images/resume-screenshot.jpg"
-        />
+        <img className="resume" src=".dist/images/resume-screenshot.jpg" />
       </div>
     </div>
   );
