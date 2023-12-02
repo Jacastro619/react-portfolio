@@ -15,10 +15,19 @@ export default function Resume() {
     <div className="card custom-resume-card">
       <div className="card-header">Download Resume</div>
       <div className="card-body custom-resume-body">
-        <h5 className="card-title">Click the button below to install resume</h5>
-        <button onClick={downloadResume} className="btn btn-primary">
+        <h5 className="card-title">
+          Click the button below to download resume
+        </h5>
+        <button
+          onClick={downloadResume}
+          className="btn btn-primary custom-resume-btn"
+        >
           Download Resume
         </button>
+        <img
+          className="resume"
+          src="./src/assets/images/resume-screenshot.jpg"
+        />
       </div>
     </div>
   );
