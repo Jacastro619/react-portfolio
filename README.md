@@ -39,7 +39,7 @@ If there are additional questions, you may contact me at jorgecastro619@gmail.co
 
 Created by Jorge Castro, a student at UC Berkeley Full Stack Coding Academy. For more information go to https://bootcamp.berkeley.edu/coding/
 
-- [Portfolio](https://jacastro619.github.io/my-portfolio/)
+- [Initial Portfolio (Not React)](https://jacastro619.github.io/my-portfolio/)
 
 - [LinkedIn](https://www.linkedin.com/in/jorge-castro-2a9545177/)
 
