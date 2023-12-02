@@ -50,6 +50,110 @@ main {
   border-radius: 50px;
 }
 
+.custom-card {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  height: 550px;
+  margin: 70px;
+  width: 95%;
+}
+
+.section-header {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.custom-card-body {
+  display: flex;
+  align-items: center;
+}
+
+.custom-card-body p {
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 25px;
+  margin-right: 30px;
+}
+
+.profile-pic {
+  border-radius: 250px;
+  border: 5px solid rgba(128, 128, 128, 0.9);
+  width: 25%;
+  max-width: 300px;
+  height: 60%;
+  max-height: 300px;
+}
+
+.pro-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 95%;
+}
+
+.projects {
+  margin: 20px;
+}
+
+.pro-custom-card {
+  margin: 20px;
+  min-height: 450px;
+}
+
+.cus-procard-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cus-procard-body a {
+  margin-bottom: 5px;
+}
+
+.link-btns a {
+  width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-evenly;
+  margin: 5%;
+  height: 400px;
+  width: 50%;
+}
+
+.custom-form-label {
+  color: whitesmoke;
+}
+
+.popup-style {
+  margin-top: 10px;
+  color: whitesmoke;
+}
+
+.custom-resume-card {
+  display: flex;
+  width: 50%;
+  height: 300px;
+  align-self: center;
+  margin: 10%;
+}
+
+.custom-resume-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -65,4 +169,62 @@ footer img {
 
 footer a {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 1340px) {
+  .custom-card-body p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .custom-nav {
+    font-size: 28px;
+  }
+
+  .custom-card-body {
+    flex-direction: column;
+  }
+
+  .profile-pic {
+    width: 14%;
+    height: 30%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .custom-nav {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .custom-card-body p {
+    font-size: 15px;
+  }
+
+  .profile-pic {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .custom-nav {
+    font-size: 15px;
+  }
+
+  .projects {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .custom-nav {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .custom-card-body p {
+    font-size: 14px;
+  }
 }
