@@ -11,7 +11,7 @@ export default function Projects() {
             style={{ width: "20rem" }}
           >
             <img
-              src={`./dist/images/${project.imageName}`}
+              src={`./images/${project.imageName}`}
               className="card-img-top h-50 p-1"
               alt="screenshot of the work remote applications homepage"
             />

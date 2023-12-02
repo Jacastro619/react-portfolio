@@ -3,7 +3,7 @@ export default function About() {
     <div className="card custom-card">
       <h2 className="section-header">About Me</h2>
       <div className="card-body custom-card-body">
-        <img className="profile-pic" src=".dist/images/portfolio pic.jpg" />
+        <img className="profile-pic" src="./images/portfolio pic.jpg" />
         <p>
           I am a motivated and determined 26-year-old, eager to learn. I have
           developed a strong affinity for web development and am committed to
