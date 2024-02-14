@@ -5,22 +5,26 @@ export default function About() {
       <div className="card-body custom-card-body">
         <img className="profile-pic" src="./images/portfolio pic.jpg" />
         <p>
-          I am a motivated and determined 26-year-old, eager to learn. I have
-          developed a strong affinity for web development and am committed to
-          learning as much as I can to build my skill set in tech. I have
-          successfully obtained my Cloud Solution Architect Associate
-          Certification from AWS (Amazon Web Services). I just recently obtained
-          my Full Stack Engineering certification through UC Berkeley and
-          learned highly sought-after industry skills.
+          As a passionate and ambitious 26-year-old with a keen interest in
+          technology, I am deeply committed to advancing my expertise in web
+          development. My journey has led me to earn a Cloud Solution Architect
+          Associate Certification from Amazon Web Services (AWS), demonstrating
+          my dedication to mastering cutting-edge technologies. Most recently, I
+          achieved a Full Stack Engineering certification through UC Berkeley,
+          where I acquired a comprehensive set of skills highly valued in the
+          industry. My relentless pursuit of knowledge and skill enhancement in
+          tech drives me forward.
         </p>
 
         <p>
-          I am on an exciting journey to dive headfirst into the world of
-          technology. I am a quick and efficient learner, always eager to take
-          on new challenges and put my new skills to the test. My ultimate goal
-          is to channel my expertise and creativity to achieve a fulfilling
-          career in tech. I am eager to see where this next chapter of my life
-          will take me.
+          My journey in technology is an exhilarating adventure of continuous
+          learning and growth. As a quick and efficient learner, I thrive on
+          embracing new challenges and applying my freshly acquired skills in
+          practical scenarios. With a steadfast aim to merge my expertise and
+          creativity, I am dedicated to carving out a rewarding career in the
+          tech industry. I am filled with anticipation for the opportunities and
+          experiences that lie ahead in this next chapter of my professional
+          life.
         </p>
       </div>
     </div>

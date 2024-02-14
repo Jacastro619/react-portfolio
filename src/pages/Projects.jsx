@@ -13,7 +13,7 @@ export default function Projects() {
             <img
               src={`./images/${project.imageName}`}
               className="card-img-top h-50 p-1"
-              alt="screenshot of the work remote applications homepage"
+              alt={`${project.alt}`}
             />
             <div className="card-body cus-procard-body">
               <h5 className="card-title">{project.title}</h5>
