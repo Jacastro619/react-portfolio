@@ -9,9 +9,9 @@ export default function About() {
           developed a strong affinity for web development and am committed to
           learning as much as I can to build my skill set in tech. I have
           successfully obtained my Cloud Solution Architect Associate
-          Certification from AWS (Amazon Web Services). Fueled by my desire to
-          learn, I am currently attending a Full Stack Engineering Bootcamp at
-          UC Berkeley to enhance my capabilities.
+          Certification from AWS (Amazon Web Services). I just recently obtained
+          my Full Stack Engineering certification through UC Berkeley and
+          learned highly sought-after industry skills.
         </p>
 
         <p>
