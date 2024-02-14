@@ -21,12 +21,16 @@ export default function Projects() {
               <div className="link-btns">
                 <a
                   href={project.repoLink}
+                  rel="noreferrer"
+                  target="_blank"
                   className="btn btn-primary custom-project-btns"
                 >
                   Go to Repository!
                 </a>
                 <a
                   href={project.deployedLink}
+                  rel="noreferrer"
+                  target="_blank"
                   className="btn btn-primary custom-project-btns"
                 >
                   View Demo Here!

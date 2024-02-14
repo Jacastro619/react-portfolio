@@ -1,5 +1,14 @@
 const projects = [
   {
+    imageName: "Readit.jpg",
+    alt: "screenshot of Readit application",
+    title: "ReadIt",
+    description:
+      "A MERN stack microblogging application with the use of Apollo GQL",
+    repoLink: "https://github.com/flimits/readit",
+    deployedLink: "https://project-readit-ae03b3828bf5.herokuapp.com/",
+  },
+  {
     imageName: "work remote screenshot.jpg",
     alt: "screenshot of the work remote applications homepage",
     title: "Work Remote",
