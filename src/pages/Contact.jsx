@@ -38,6 +38,11 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    const myEmail = "jorgecastro619@gmail.com";
+
+    const mailtoLink = `mailto:${myEmail}?subject=Contact%20Form%20Submission&body=Name:%20${formData.fullName}%0AEmail:%20${formData.email}%0AMessage:%20${formData.message}`;
+    window.location.href = mailtoLink;
+
     setFormData({
       fullName: "",
       email: "",
@@ -104,55 +109,55 @@ export default function Contact() {
             <div className="popup-style">*Please fill in a message.</div>
           )}
         </div>
-        <button
-          type="submit"
-          className="btn btn-primary"
-          data-bs-toggle="modal"
-          data-bs-target="#sentModal"
-        >
-          Send Contact Information
-        </button>
+        {formData.fullName &&
+          formData.email &&
+          formData.message &&
+          isEmail(formData.email) && (
+            <button
+              type="submit"
+              className="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#sentModal"
+            >
+              Send Contact Information
+            </button>
+          )}
       </form>
-      {formData.fullName &&
-        formData.email &&
-        formData.message &&
-        isEmail(formData.email) && (
-          <div
-            className="modal fade"
-            id="sentModal"
-            tabIndex="-1"
-            aria-labelledby="sentModalLabel"
-            aria-hidden="true"
-          >
-            <div className="modal-dialog">
-              <div className="modal-content">
-                <div className="modal-header">
-                  <h1 className="modal-title fs-5" id="sentModalLabel">
-                    Info Has Been Sent!
-                  </h1>
-                  <button
-                    type="button"
-                    className="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div className="modal-body">
-                  The information that was filled out has be sent!
-                </div>
-                <div className="modal-footer">
-                  <button
-                    type="button"
-                    className="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                </div>
-              </div>
+      <div
+        className="modal fade"
+        id="sentModal"
+        tabIndex="-1"
+        aria-labelledby="sentModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h1 className="modal-title fs-5" id="sentModalLabel">
+                Opening Email
+              </h1>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body">
+              The information that was filled out will be a composed email!
+            </div>
+            <div className="modal-footer">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
             </div>
           </div>
-        )}
+        </div>
+      </div>
     </>
   );
 }
