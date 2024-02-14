@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <div>
         <h1>Jorge Castro</h1>
-        <h2>Student at UC Berkely</h2>
+        <h2>Certified Full Stack Engineer</h2>
       </div>
       <NavTabs />
     </header>
