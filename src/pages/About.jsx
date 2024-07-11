@@ -5,12 +5,12 @@ export default function About() {
       <div className="card-body custom-card-body">
         <img className="profile-pic" src="./images/portfolio pic.jpg" />
         <p>
-          As a passionate and ambitious 26-year-old with a keen interest in
+          As a passionate and ambitious person with a keen interest in
           technology, I am deeply committed to advancing my expertise in web
           development. My journey has led me to earn a Cloud Solution Architect
           Associate Certification from Amazon Web Services (AWS), demonstrating
-          my dedication to mastering cutting-edge technologies. Most recently, I
-          achieved a Full Stack Engineering certification through UC Berkeley,
+          my dedication to mastering cutting-edge cloud services. Most recently,
+          I achieved a Full Stack Engineering certification through UC Berkeley,
           where I acquired a comprehensive set of skills highly valued in the
           industry. My relentless pursuit of knowledge and skill enhancement in
           tech drives me forward.

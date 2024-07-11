@@ -1,6 +1,6 @@
 export default function Resume() {
   const downloadResume = () => {
-    const resumePath = "./installables/Resume-Jorge-Castro.pdf";
+    const resumePath = "./installables/Computer Science Resume.pdf";
 
     const anchor = document.createElement("a");
 
